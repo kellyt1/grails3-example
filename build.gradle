@@ -19,8 +19,8 @@ plugins {
 version "0.1"
 group "heroku"
 
-apply plugin: "spring-boot"
 apply plugin: "war"
+apply plugin: "spring-boot"
 apply plugin: "asset-pipeline"
 apply plugin: 'eclipse'
 apply plugin: 'idea'
